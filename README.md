@@ -8,7 +8,7 @@ A new Flutter project.
 <!--   <img src = "url" width = "value" height = "value"> -->
  <td>Light Theme style="color:red;"</td> 
 <img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/1.jpg" width="300" height="590">
- <td>Dark Theme style="color:red;"</td> 
+ <td>Dark Theme style='color:red;'</td> 
 <img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/2.jpg" width = "300" height="590">
 </td> 
 
