@@ -5,9 +5,9 @@ A new Flutter project.
 ## Getting Started
 
 <div>
-<img src="https://github.com/imCoderAditya/FlutterApp/blob/day3/android/app/src/main/res/drawable/1.jpg?raw=true" width="300" height="590">
+<!--   <img src = "url" width = "value" height = "value"> -->
+<img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/1.jpg" width="300" height="590">
 <img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/2.jpg" width = "300" height="590">
-## <img src = "https://github.com/imCoderAditya/FlutterApp/blob/day3/android/app/src/main/res/drawable/3.jpg" width ="300" height="590">
 </div> 
 
 This project is a starting point for a Flutter application.
