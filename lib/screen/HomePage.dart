@@ -22,19 +22,13 @@ class _HomePageState extends State<HomePage> {
     // print(decodeData);
     var dataItem = decodeData['hits'];
 
-   try{
-       PixaApi.hits = List.from(dataItem)
-          .map<Hits>((e) => Hits.fromMap(e))
-          .toList();
+    try {
+      PixaApi.hits =
+          List.from(dataItem).map<Hits>((e) => Hits.fromMap(e)).toList();
       setState(() {});
-   }catch(e){
-    print(e);
-   }
-    // setState(() {
-    //    Data1 = dataItem[1]['largeImageURL'];
-
-    // });
-   
+    } catch (e) {
+      print(e);
+    }
   }
 
   @override
@@ -49,13 +43,13 @@ class _HomePageState extends State<HomePage> {
       elevation: 10,
       margin: const EdgeInsets.symmetric(vertical: 1),
       child: ListView.builder(
-        itemCount: PixaApi.hits.length,
-        itemBuilder: (context, index) {
-        return Column(children: [
-          Image.network(PixaApi.hits[index].largeImageURL.toString()),
-          Text(PixaApi.hits[index].tags.toString()),
-        ]);
-      }),
+          itemCount: PixaApi.hits.length,
+          itemBuilder: (context, index) {
+            return Column(children: [
+              Image.network(PixaApi.hits[index].largeImageURL.toString()),
+              Text(PixaApi.hits[index].tags.toString()),
+            ]);
+          }),
     );
   }
 }
