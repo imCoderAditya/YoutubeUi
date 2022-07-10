@@ -4,11 +4,11 @@ A new Flutter project.
 
 ## Getting Started
 
-<div>
+<td>
 <!--   <img src = "url" width = "value" height = "value"> -->
 <img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/1.jpg" width="300" height="590">
 <img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/2.jpg" width = "300" height="590">
-</div> 
+</td> 
 
 This project is a starting point for a Flutter application.
 
