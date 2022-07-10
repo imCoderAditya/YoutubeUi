@@ -7,15 +7,11 @@ A new Flutter project.
 <td>
 <!--   <img src = "url" width = "value" height = "value"> -->
 <img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/1.jpg" width="300" height="590">
-  
+ <td>Light Theme</td> 
 <img src="https://github.com/imCoderAditya/YoutubeUi/blob/Day1/screenshot/Photoes/2.jpg" width = "300" height="590">
 </td> 
 
- <tr>
-    <td>John Doe</td>
-    <td>United States</td>
-    <td height=100 width=100><img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="" height=100 width=100 /></td>
-  </tr>
+
 
 This project is a starting point for a Flutter application.
 
